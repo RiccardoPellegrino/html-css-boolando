@@ -13,6 +13,9 @@
     --arancione: orange;
 
 }
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
 
 .container-padre {
     width: 100%;
