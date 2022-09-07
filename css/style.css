@@ -10,32 +10,39 @@
     --rosso: red;
     --verde: rgb(12, 136, 12);
     --bianco: white;
-    --arancione:orange;
+    --arancione: orange;
 
 }
-.container-padre{
+
+.container-padre {
     width: 100%;
     background-color: var(--arancione);
     position: fixed;
     height: 60px;
     z-index: 1;
-    
+
 }
-.container-figlio{
+
+.container-figlio {
     width: 80%;
     margin: auto;
     color: var(--bianco);
 }
-.menu{
+
+.menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
     padding-top: 10px;
 }
-.immagine{
+.cliccabile{
+    cursor: pointer;
+}
+.immagine {
     width: 150px;
 }
+
 main {
     width: 80%;
     margin: 0px auto;
@@ -47,16 +54,10 @@ main {
     display: flex;
     justify-content: space-between;
 }
-.bg-color{
+
+.bg-color {
     background-color: orange;
 }
-ul li{
-    display: flex;
-    list-style-type: none;
-
-   
-}
-
 .row-flex {
     display: flex;
     margin-bottom: 80px;
@@ -65,6 +66,9 @@ ul li{
 .col {
     width: calc(100% /3);
     position: relative;
+    
+}
+.classe{
     cursor: pointer;
 }
 
@@ -112,7 +116,7 @@ ul li{
     position: relative;
 }
 
-.cuoricino{
+.cuoricino {
     position: absolute;
     top: 10px;
     right: 0px;
@@ -121,37 +125,61 @@ ul li{
     color: var(--black);
     text-align: center;
     font-size: 40px;
-    
-
 }
-footer{
+
+footer {
     display: flex;
     width: 100%;
     height: 200px;
     background-color: black;
     color: var(--bianco);
 }
-.flex-space{
+
+.flex-space {
     display: flex;
     width: 80%;
     margin: 30px auto;
     display: flex;
     justify-content: space-between;
-    
+
 }
-.flex-space-2{
+
+.flex-space-2 {
     width: 80%;
     margin: 30px auto;
     display: flex;
     justify-content: space-between;
+
+}
+
+i {
+    background-color: var(--black);
+    color: var(--bianco);
+    padding-left: 8px;
+
+}
+
+.acceso:hover .cuoricino {
+    color: var(--rosso);
+}
+
+.classe:hover .dopo {
+    display: inline-block;
    
 }
-i{
-    background-color: var(--black);
-    color:var(--bianco);
-    font-size: 25px;
-    
+.classe:hover .prima{
+    display: none;
 }
-.acceso:hover .cuoricino{
-    color: var(--rosso);
+.dopo {
+    display: none;
+}
+h3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+li{
+    padding: 10px;
+}
+.sottolinea:hover{
+    text-decoration: underline;
 }
