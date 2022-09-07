@@ -55,6 +55,8 @@ ul {
     left: 0;
     background-color: var(--rosso);
     width: 50px;
+    height: 25px;
+    padding-top: 3px;
     padding-left: 8px;
     color: var(--bianco);
     display: block;
@@ -66,9 +68,12 @@ ul {
     left: 55px;
     background-color: var(--verde);
     width: 120px;
+    height: 25px;
+    padding-top: 3px;
     padding-left: 0px;
     color: var(--bianco);
     display: block;
+    text-align: center;
 }
 
 .colore-prezzo {
