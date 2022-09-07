@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+
+    --rosso: red;
+    --verde: rgb(12, 136, 12);
+    --bianco: white;
+
+}
+
+main {
+    width: 80%;
+    margin: 30px auto;
+    min-width: 800px;
+}
+
+.row-flex {
+    display: flex;
+}
+
+.col {
+    width: calc(100% /3);
+    position: relative;
+}
+
+.col img {
+    width: 100%;
+
+}
+
+.margin {
+    margin: 0px 30px;
+}
+
+.etichetta-rossa {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    background-color: var(--rosso);
+    width: 50px;
+    padding-left: 8px;
+    color: var(--bianco);
+    display: block;
+}
+.etichetta-verde {
+    position: absolute;
+    bottom: 50px;
+    left: 55px;
+    background-color: var(--verde);
+    width: 120px;
+    padding-left: 0px;
+    color: var(--bianco);
+    display: block;
+}
+.colore-prezzo{
+    color: var(--rosso);
+}
+.classe{
+    position: relative;
+}
+.cuoricino{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    background-color: var(--bianco);
+    height: 30xp;
+    width: 30px;
+    color: var(--black);
+    display: block;
+    text-align: center;
+    font-size: 20px;
+
+}
