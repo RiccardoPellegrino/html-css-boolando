@@ -19,8 +19,20 @@ main {
     min-width: 800px;
 }
 
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.bg-color{
+    background-color: orange;
+}
+ul {
+    list-style-type: none;
+}
+
 .row-flex {
     display: flex;
+    margin-bottom: 80px;
 }
 
 .col {
@@ -47,6 +59,7 @@ main {
     color: var(--bianco);
     display: block;
 }
+
 .etichetta-verde {
     position: absolute;
     bottom: 50px;
@@ -57,13 +70,16 @@ main {
     color: var(--bianco);
     display: block;
 }
-.colore-prezzo{
+
+.colore-prezzo {
     color: var(--rosso);
 }
-.classe{
+
+.classe {
     position: relative;
 }
-.cuoricino{
+
+.cuoricino {
     position: absolute;
     top: 10px;
     right: 0px;
