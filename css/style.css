@@ -10,13 +10,37 @@
     --rosso: red;
     --verde: rgb(12, 136, 12);
     --bianco: white;
+    --arancione:orange;
 
 }
-
+.container-padre{
+    width: 100%;
+    background-color: var(--arancione);
+    position: fixed;
+    height: 60px;
+    z-index: 1;
+    
+}
+.container-figlio{
+    width: 80%;
+    margin: auto;
+    color: var(--bianco);
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.immagine{
+    width: 150px;
+}
 main {
     width: 80%;
-    margin: 30px auto;
+    margin: 0px auto;
     min-width: 800px;
+    padding-top: 100px;
 }
 
 .flex {
@@ -26,8 +50,11 @@ main {
 .bg-color{
     background-color: orange;
 }
-ul {
+ul li{
+    display: flex;
     list-style-type: none;
+
+   
 }
 
 .row-flex {
