@@ -51,6 +51,7 @@ main {
     margin: 0px auto;
     min-width: 800px;
     padding-top: 100px;
+    /* max-width: 1170px; */
 }
 
 .flex {
@@ -73,6 +74,7 @@ main {
 }
 .classe{
     cursor: pointer;
+    position: relative;
 }
 
 .col img {
@@ -115,10 +117,6 @@ main {
     color: var(--rosso);
 }
 
-.classe {
-    position: relative;
-}
-
 .cuoricino {
     position: absolute;
     top: 10px;
@@ -131,6 +129,7 @@ main {
 }
 
 footer {
+    min-width: 800px;
     display: flex;
     width: 100%;
     height: 200px;
